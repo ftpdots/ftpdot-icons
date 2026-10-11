@@ -1,56 +1,54 @@
-ftpdot-icons
+# ftpdot-icons
 
 Minimal SVG icons for developers.
 
 A collection of developer and technology icons with a consistent visual style, designed for GitHub profiles, README files, websites, and personal projects.
 
-Icons
+## Icons
 
-Preview| Name| File
-"C" (icons/c.svg)| C| ""c.svg"" (icons/c.svg)
-"Cloudflare" (icons/cloudflare.svg)| Cloudflare| ""cloudflare.svg"" (icons/cloudflare.svg)
-"CSS" (icons/css.svg)| CSS| ""css.svg"" (icons/css.svg)
-"Docker" (icons/docker.svg)| Docker| ""docker.svg"" (icons/docker.svg)
-"Git" (icons/git.svg)| Git| ""git.svg"" (icons/git.svg)
-"GitHub" (icons/github.svg)| GitHub| ""github.svg"" (icons/github.svg)
-"GitLab" (icons/gitlab.svg)| GitLab| ""gitlab.svg"" (icons/gitlab.svg)
-"Go" (icons/go.svg)| Go| ""go.svg"" (icons/go.svg)
-"HTML" (icons/html.svg)| HTML| ""html.svg"" (icons/html.svg)
-"JavaScript" (icons/javascript.svg)| JavaScript| ""javascript.svg"" (icons/javascript.svg)
-"Linux" (icons/linux.svg)| Linux| ""linux.svg"" (icons/linux.svg)
-"Lua" (icons/lua.svg)| Lua| ""lua.svg"" (icons/lua.svg)
-"Node.js" (icons/nodejs.svg)| Node.js| ""nodejs.svg"" (icons/nodejs.svg)
-"Pawn" (icons/pawn.svg)| Pawn| ""pawn.svg"" (icons/pawn.svg)
-"PHP" (icons/php.svg)| PHP| ""php.svg"" (icons/php.svg)
-"PostgreSQL" (icons/postgresql.svg)| PostgreSQL| ""postgresql.svg"" (icons/postgresql.svg)
-"React" (icons/react.svg)| React| ""react.svg"" (icons/react.svg)
-"SQL" (icons/sql.svg)| SQL| ""sql.svg"" (icons/sql.svg)
-"SQLite" (icons/sqlite.svg)| SQLite| ""sqlite.svg"" (icons/sqlite.svg)
+| Preview | Name | File |
+|---------|------|------|
+| <img src="https://cdn.jsdelivr.net/gh/ftpdots/ftpdot-icons@main/icons/c.svg" width="32" height="32" alt="C"> | C | `c.svg` |
+| <img src="https://cdn.jsdelivr.net/gh/ftpdots/ftpdot-icons@main/icons/cloudflare.svg" width="32" height="32" alt="Cloudflare"> | Cloudflare | `cloudflare.svg` |
+| <img src="https://cdn.jsdelivr.net/gh/ftpdots/ftpdot-icons@main/icons/css.svg" width="32" height="32" alt="CSS"> | CSS | `css.svg` |
+| <img src="https://cdn.jsdelivr.net/gh/ftpdots/ftpdot-icons@main/icons/docker.svg" width="32" height="32" alt="Docker"> | Docker | `docker.svg` |
+| <img src="https://cdn.jsdelivr.net/gh/ftpdots/ftpdot-icons@main/icons/git.svg" width="32" height="32" alt="Git"> | Git | `git.svg` |
+| <img src="https://cdn.jsdelivr.net/gh/ftpdots/ftpdot-icons@main/icons/github.svg" width="32" height="32" alt="GitHub"> | GitHub | `github.svg` |
+| <img src="https://cdn.jsdelivr.net/gh/ftpdots/ftpdot-icons@main/icons/gitlab.svg" width="32" height="32" alt="GitLab"> | GitLab | `gitlab.svg` |
+| <img src="https://cdn.jsdelivr.net/gh/ftpdots/ftpdot-icons@main/icons/go.svg" width="32" height="32" alt="Go"> | Go | `go.svg` |
+| <img src="https://cdn.jsdelivr.net/gh/ftpdots/ftpdot-icons@main/icons/html.svg" width="32" height="32" alt="HTML"> | HTML | `html.svg` |
+| <img src="https://cdn.jsdelivr.net/gh/ftpdots/ftpdot-icons@main/icons/javascript.svg" width="32" height="32" alt="JavaScript"> | JavaScript | `javascript.svg` |
+| <img src="https://cdn.jsdelivr.net/gh/ftpdots/ftpdot-icons@main/icons/linux.svg" width="32" height="32" alt="Linux"> | Linux | `linux.svg` |
+| <img src="https://cdn.jsdelivr.net/gh/ftpdots/ftpdot-icons@main/icons/lua.svg" width="32" height="32" alt="Lua"> | Lua | `lua.svg` |
+| <img src="https://cdn.jsdelivr.net/gh/ftpdots/ftpdot-icons@main/icons/nodejs.svg" width="32" height="32" alt="Node.js"> | Node.js | `nodejs.svg` |
+| <img src="https://cdn.jsdelivr.net/gh/ftpdots/ftpdot-icons@main/icons/pawn.svg" width="32" height="32" alt="Pawn"> | Pawn | `pawn.svg` |
+| <img src="https://cdn.jsdelivr.net/gh/ftpdots/ftpdot-icons@main/icons/php.svg" width="32" height="32" alt="PHP"> | PHP | `php.svg` |
+| <img src="https://cdn.jsdelivr.net/gh/ftpdots/ftpdot-icons@main/icons/postgresql.svg" width="32" height="32" alt="PostgreSQL"> | PostgreSQL | `postgresql.svg` |
+| <img src="https://cdn.jsdelivr.net/gh/ftpdots/ftpdot-icons@main/icons/react.svg" width="32" height="32" alt="React"> | React | `react.svg` |
+| <img src="https://cdn.jsdelivr.net/gh/ftpdots/ftpdot-icons@main/icons/sql.svg" width="32" height="32" alt="SQL"> | SQL | `sql.svg` |
+| <img src="https://cdn.jsdelivr.net/gh/ftpdots/ftpdot-icons@main/icons/sqlite.svg" width="32" height="32" alt="SQLite"> | SQLite | `sqlite.svg` |
 
-Usage
+## Usage
 
-Markdown
+### Markdown
+```
+![Lua](https://cdn.jsdelivr.net/gh/ftpdots/ftpdot-icons@main/icons/lua.svg)
+```
+### HTML
 
-Use an icon in your GitHub profile README or another Markdown document:
+```html
+<img src="https://cdn.jsdelivr.net/gh/ftpdots/ftpdot-icons@main/icons/lua.svg" alt="Lua" width="48" height="48">
+```
 
-![Lua](https://cdn.jsdelivr.net/gh/ftpdot/ftpdot-icons@main/icons/lua.svg)
+## URL format
 
-HTML
+```
+https://cdn.jsdelivr.net/gh/ftpdots/ftpdot-icons@main/icons/ICON.svg
+```
 
-<img
-  src="https://cdn.jsdelivr.net/gh/ftpdot/ftpdot-icons@main/icons/lua.svg"
-  alt="Lua"
-  width="48"
-  height="48"
-/>
+Replace `ICON` with the filename without the `.svg` extension.
 
-URL format
-
-https://cdn.jsdelivr.net/gh/ftpdot/ftpdot-icons@main/icons/ICON.svg
-
-Replace "ICON" with the icon's filename without the ".svg" extension.
-
-Features
+## Features
 
 - Consistent 48 × 48 SVG format
 - Unified color palette and visual style
@@ -58,14 +56,14 @@ Features
 - Suitable for GitHub profiles, READMEs, and websites
 - Lightweight vector graphics
 
-Contributing
+## Contributing
 
 Suggestions for new icons, improvements, and bug reports are welcome. Open an issue or submit a pull request.
 
-License
+## License
 
-Released under "CC0 1.0 Universal" (https://creativecommons.org/publicdomain/zero/1.0/).
+Released under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
 
 You may copy, modify, and redistribute the icons for any purpose, including commercial use, without asking for permission or providing attribution.
 
-See "LICENSE" (LICENSE) for the full legal text.xy
+See [LICENSE](LICENSE) for the full legal text.
